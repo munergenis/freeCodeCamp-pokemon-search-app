@@ -22,9 +22,9 @@
         </div>
 
         <div id="pokemon-dimensions">
-          <span id="weight">Weight: 20kg</span>
+          <span id="weight">Weight: 6.9 kg</span>
           <span class="separator-inline"></span>
-          <span id="height">Height: 30cm</span>
+          <span id="height">Height: 0.7 m</span>
         </div>
 
         <img src="./img/preview-pokemon-img.png" alt="pokemon preview image" id="pokemon-img">
@@ -33,15 +33,10 @@
       <div id="types">
         <span class="type-tag">GRASS</span>
         <span class="type-tag">POISON</span>
-        <span class="type-tag">POISON</span>
-        <span class="type-tag">POISON</span>
-        <span class="type-tag">POISON</span>
-        <span class="type-tag">POISON</span>
-        <span class="type-tag">POISON</span>
       </div>
     </section>
 
-    <div class="column stats">
+    <section class="column stats">
       <table id="data-cont">
         <tr class="table-header">
           <td id="base-data">Base</td>
@@ -73,16 +68,20 @@
         </tr>
       </table>
 
-      <section id="input-cont">
-        <input type="text" id="search-input" placeholder="Search for Name or ID" aria-label="Search for Name or ID">
+      <form id="input-cont">
+        <input type="text" id="search-input" placeholder="Search for Name or ID" aria-label="Search for Name or ID" required>
         <button class="btn" id="search-button">Search</button>
-      </section>
-    </div>
+      </form>
+    </section>
   </main>
 
   <footer class="footer">
     <p>Project by Genís Muner</p>
   </footer>
+
+  <section id="modal">
+    <h1>Hello</h1>
+  </section>
 
   <script src="./script.js"></script>
 </body>

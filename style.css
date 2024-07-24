@@ -33,8 +33,9 @@ p {
 }
 
 .separator-inline {
-  border-left: 1px solid rgb(82, 105, 128);
-  padding-right: 3px;
+  border-inline: 1px solid aliceblue;
+  box-shadow: 0px 0px 2px aliceblue;
+  padding-right: 2px;
   margin-inline: 6px;
 }
 
@@ -80,6 +81,23 @@ td {
 }
 
 /* Layout */
+#modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(15, 15, 30);
+  border: 2px solid white;
+  border-radius: 15px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -157,7 +175,7 @@ div#types {
   gap: 10px;
 }
 
-section#input-cont {
+form#input-cont {
   display: flex;
   flex-direction: column;
   gap: 8px;
