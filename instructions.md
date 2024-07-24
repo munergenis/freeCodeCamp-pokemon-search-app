@@ -5,31 +5,31 @@ In this project, you'll build an app that will search for Pokémon by name or ID
 
 User Stories:
 
-- You should have an input element with an id of "search-input"
+- ~~You should have an input element with an id of "search-input"~~
 
-- You should have a button element with an id of "search-button"
+- ~~You should have a button element with an id of "search-button"~~
 
-- You should have an element with an id of "pokemon-name"
+- ~~You should have an element with an id of "pokemon-name"~~
 
-- You should have an element with an id of "pokemon-id"
+- ~~You should have an element with an id of "pokemon-id"~~
 
-- You should have an element with an id of "weight"
+- ~~You should have an element with an id of "weight"~~
 
-- You should have an element with an id of "height"
+- ~~You should have an element with an id of "height"~~
 
-- You should have an element with an id of "types"
+- ~~You should have an element with an id of "types"~~
 
-- You should have an element with an id of "hp"
+- ~~You should have an element with an id of "hp"~~
 
-- You should have an element with an id of "attack"
+- ~~You should have an element with an id of "attack"~~
 
-- You should have an element with an id of "defense"
+- ~~You should have an element with an id of "defense"~~
 
-- You should have an element with an id of "special-attack"
+- ~~You should have an element with an id of "special-attack"~~
 
-- You should have an element with an id of "special-defense"
+- ~~You should have an element with an id of "special-defense"~~
 
-- You should have an element with an id of "speed"
+- ~~You should have an element with an id of "speed"~~
 
 - When the #search-input element contains the value Red and the #search-button element is clicked, an alert should appear with the text "Pokémon not found"
 

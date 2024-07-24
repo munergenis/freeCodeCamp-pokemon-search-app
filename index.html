@@ -4,9 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>freeCodeCamp - Pokemon Search App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
+  <header>
+    <h1>Pokémon Search App</h1>
+  </header>
+
+  <main>
+    <section id="pokemon-cont">
+      <div class="column center">
+        <div id="pokemon-name-cont">
+          <h2 id="pokemon-name">Bulbasaur</h2>
+          <span id="pokemon-id">#1</span>
+        </div>
+
+        <div id="pokemon-dimensions">
+          <span id="weight">Weight: 20kg</span>
+          <span class="separator-inline"></span>
+          <span id="height">Height: 30cm</span>
+        </div>
+
+        <img src="./img/preview-pokemon-img.png" alt="pokemon preview image" id="pokemon-img">
+      </div>
+
+      <div id="types">
+        <span class="type-tag">GRASS</span>
+        <span class="type-tag">POISON</span>
+        <span class="type-tag">POISON</span>
+        <span class="type-tag">POISON</span>
+        <span class="type-tag">POISON</span>
+        <span class="type-tag">POISON</span>
+        <span class="type-tag">POISON</span>
+      </div>
+    </section>
+
+    <div class="column stats">
+      <table id="data-cont">
+        <tr class="table-header">
+          <td id="base-data">Base</td>
+          <td id="stats-data">Stats</td>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td id="hp">1</td>
+        </tr>
+        <tr>
+          <td>ATTACK</td>
+          <td id="attack">1</td>
+        </tr>
+        <tr>
+          <td>DEFENSE</td>
+          <td id="defense">1</td>
+        </tr>
+        <tr>
+          <td>SPECIAL ATTACK</td>
+          <td id="special-attack">1</td>
+        </tr>
+        <tr>
+          <td>SPECIAL DEFENSE</td>
+          <td id="special-defense">1</td>
+        </tr>
+        <tr>
+          <td>SPEED</td>
+          <td id="speed">1</td>
+        </tr>
+      </table>
+
+      <section id="input-cont">
+        <input type="text" id="search-input" placeholder="Search for Name or ID" aria-label="Search for Name or ID">
+        <button class="btn" id="search-button">Search</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Project by Genís Muner</p>
+  </footer>
+
   <script src="./script.js"></script>
 </body>
 </html>
